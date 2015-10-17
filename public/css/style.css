@@ -1,0 +1,10 @@
+body{
+    background-color:#000000;
+    background-image:url(https://farm6.staticflickr.com/5451/17446426353_da8edc8454_k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-inner {
+    opacity: 0.80;
+}
