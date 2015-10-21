@@ -8,3 +8,13 @@ body{
 .navbar-inner {
     opacity: 0.80;
 }
+
+/*Background for mobile devices*/
+@media(max-width: 480px){
+    body {
+        background-color:#000000;
+        background-image: url("https://farm6.staticflickr.com/5774/22161071810_f2422ecdf4_b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    }
