@@ -1,6 +1,7 @@
 body{
     background-color:#272727;
     color: #b7b7b7;
+    font-family: Helvetica, sans-serif;
 }
 
 .jumbotron{
@@ -84,5 +85,11 @@ a:focus, a:hover {
     margin: 3%;
     padding-right:3%;
     padding-left:3%;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-style: normal;
+    font-weight:lighter;
 }
 
