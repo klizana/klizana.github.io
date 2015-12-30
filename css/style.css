@@ -6,11 +6,6 @@ body{
     font-weight:lighter;
 }
 
-.jumbotron{
-    background-color:#000000;
-    margin-top:1%;
-}
-
 .social-media{
     padding-left:2%;
 }
@@ -74,6 +69,12 @@ img{
     padding-top:5%;
 }
 
+.content-box{
+    background-color:#000000;
+    padding:2%;
+    margin-bottom:2%;
+}
+
 a {
     color: #a7b9ca;
 }
@@ -100,3 +101,8 @@ h1, h2, h3, h4, h5 {
     font-weight:lighter;
 }
 
+.container-fluid{
+    padding-top:2%;
+    padding-left:2%;
+    padding-right:2%;
+}
