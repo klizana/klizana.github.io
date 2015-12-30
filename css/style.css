@@ -2,6 +2,8 @@ body{
     background-color:#272727;
     color: #b7b7b7;
     font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
 }
 
 .jumbotron{
@@ -76,8 +78,13 @@ a {
     color: #a7b9ca;
 }
 
+.a-title {
+    color: #b7b7b7;
+}
+
 a:focus, a:hover {
-    color:#4e7496;
+    color:#8594a1;
+    text-decoration: none;
 }
 
 .paginator {
