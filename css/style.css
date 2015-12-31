@@ -29,7 +29,7 @@ img{
 .box-style{
     background-color:#000000;
     border:none;
-    padding-top:auto;
+    padding-top:none;
     padding-right:5%;
     padding-bottom:auto;
     padding-left:5%;
@@ -66,7 +66,7 @@ img{
 
 .thumbnail{
     border:none;
-    padding-top:5%;
+    padding-bottom:5%;
 }
 
 .content-box{
@@ -79,13 +79,13 @@ a {
     color: #a7b9ca;
 }
 
-.a-title {
-    color: #b7b7b7;
-}
-
 a:focus, a:hover {
     color:#8594a1;
     text-decoration: none;
+}
+
+.a-title {
+    color: #b7b7b7;
 }
 
 .paginator {
@@ -94,7 +94,6 @@ a:focus, a:hover {
     padding-right:3%;
     padding-left:3%;
 }
-
 
 h1, h2, h3, h4, h5 {
     font-style: normal;
@@ -105,4 +104,51 @@ h1, h2, h3, h4, h5 {
     padding-top:2%;
     padding-left:2%;
     padding-right:2%;
+}
+
+/* Media Querys*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .content-box{
+        padding:4.5%;
+        margin-bottom:2.5%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .content-box{
+        padding:4.5%;
+        margin-bottom:2.5%;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .content-box{
+        padding:4.5%;
+        margin-bottom:4.5%;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }
