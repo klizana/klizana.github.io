@@ -15,8 +15,12 @@ img{
     height: auto;
 }
 
-.blog-header-style{
+/*.blog-header-style{*/
+.jumbotron{
     background-color:#000000;
+    background-image: url("https://farm2.staticflickr.com/1581/23711962399_30bf399110_h.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
     padding-top:1%;
     padding-right:3%;
     padding-left:3%;
@@ -84,10 +88,6 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
-.a-title {
-    color: #b7b7b7;
-}
-
 .paginator {
     background-color: #000000;
     margin: 3%;
@@ -106,11 +106,32 @@ h1, h2, h3, h4, h5 {
     padding-right:2%;
 }
 
+.blog-header{
+    margin-bottom:2%;
+    margin-top:0%;
+}
+
 /* Media Querys*/
 
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
 
+    .jumbotron{
+        background-color:#000000;
+        background-image: url("/images/header-1500px.jpg");
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .jumbotron{
+        background-color:#000000;
+        background-image: url("/images/header-1200px.jpg");
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
 }
 
 /* Landscape tablets and medium desktops */
@@ -123,6 +144,20 @@ h1, h2, h3, h4, h5 {
     .content-box{
         padding:4.5%;
         margin-bottom:2.5%;
+    }
+
+    .jumbotron{
+    background-color:#000000;
+    background-image: url("/images/header-992px.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    padding-top:1%;
+    padding-right:3%;
+    padding-left:3%;
+    margin-top:1%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
     }
 }
 
@@ -137,18 +172,57 @@ h1, h2, h3, h4, h5 {
         margin-bottom:2.5%;
     }
 
+    .jumbotron{
+    background-color:#000000;
+    background-image: url("/images/header-992px.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    padding-top:1%;
+    padding-right:3%;
+    padding-left:3%;
+    margin-top:1%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    }
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 479px){
 
     .content-box{
         padding:4.5%;
         margin-bottom:4.5%;
     }
+    
+    .jumbotron{
+    background-color:#000000;
+    background-image: url("/images/header-767px.jpg");
+    background-size:100%;
+    }
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width:370px) {
+    
+    .content-box{
+        padding:4.5%;
+        margin-bottom:4.5%;
+    }
+    
+    .jumbotron{
+        background-color:#000000;
+        background-image: url("/images/header-480px.jpg");
+        background-size:100%;
+    }
+}
 
+/*legacy small smartphones*/
+@media (max-width: 369px) {
+
+    .jumbotron{
+        background-color:#000000;
+        background-image: url("/images/header-369px.jpg");
+        background-size:100%;
+    }
 }
