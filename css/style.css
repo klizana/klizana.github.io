@@ -1,6 +1,6 @@
 body{
-    background-color:#272727;
-    color: #b7b7b7;
+    background-color:#e9e9e9;
+    color: #727272;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight:lighter;
@@ -17,7 +17,7 @@ img{
 
 /*.blog-header-style{*/
 .jumbotron{
-    background-color:#000000;
+    background-color:#ffffff;
     background-image: url("https://farm2.staticflickr.com/1581/23711962399_30bf399110_h.jpg");
     background-size:100%;
     background-repeat:no-repeat;
@@ -32,7 +32,7 @@ img{
 }
 
 .box-style{
-    background-color:#000000;
+    background-color:#ffffff;
     border:none;
     padding-top:none;
     padding-right:5%;
@@ -41,7 +41,7 @@ img{
 }
 
 .blog-box-style{
-    background-color:#000000;
+    background-color:#ffffff;
     padding-top:3%;
     padding-right:3%;
     padding-bottom:3%;
@@ -54,7 +54,7 @@ img{
 }
 
 .comments-box-style{
-    background-color:#000000;
+    background-color:#ffffff;
     padding:3%;
     padding-top:1%;
     padding-bottom:0%;
@@ -75,22 +75,22 @@ img{
 }
 
 .content-box{
-    background-color:#000000;
+    background-color:#ffffff;
     padding:2%;
     margin-bottom:2%;
 }
 
 a {
-    color: #a7b9ca;
+    color: #9da9b3;
 }
 
 a:focus, a:hover {
-    color:#8594a1;
+    color:#b0bac2;
     text-decoration: none;
 }
 
 .paginator {
-    background-color: #000000;
+    background-color: #ffffff;
     margin: 3%;
     padding-right:3%;
     padding-left:3%;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1500px) {
 
     .jumbotron{
-        background-color:#000000;
+        background-color:#ffffff;
         background-image: url("/images/header-1500px.jpg");
         background-size:100%;
         background-repeat:no-repeat;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1200px) and (max-width: 1499px) {
 
     .jumbotron{
-        background-color:#000000;
+        background-color:#ffffff;
         background-image: url("/images/header-1200px.jpg");
         background-size:100%;
         background-repeat:no-repeat;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .jumbotron{
-    background-color:#000000;
+    background-color:#ffffff;
     background-image: url("/images/header-992px.jpg");
     background-size:100%;
     background-repeat:no-repeat;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .jumbotron{
-    background-color:#000000;
+    background-color:#ffffff;
     background-image: url("/images/header-992px.jpg");
     background-size:100%;
     background-repeat:no-repeat;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5 {
     }
     
     .jumbotron{
-    background-color:#000000;
+    background-color:#ffffff;
     background-image: url("/images/header-767px.jpg");
     background-size:100%;
     }
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5 {
     }
     
     .jumbotron{
-        background-color:#000000;
+        background-color:#ffffff;
         background-image: url("/images/header-480px.jpg");
         background-size:100%;
     }
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 369px) {
 
     .jumbotron{
-        background-color:#000000;
+        background-color:#ffffff;
         background-image: url("/images/header-369px.jpg");
         background-size:100%;
     }
