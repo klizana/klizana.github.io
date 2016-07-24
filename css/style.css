@@ -6,6 +6,11 @@ body{
     font-weight:lighter;
 }
 
+.footer{
+    font-size: 14px;
+    text-align:center;
+}
+
 .social-media{
     padding-left:2%;
 }
@@ -34,7 +39,7 @@ img{
 .box-style{
     background-color:#ffffff;
     border:none;
-    padding-top:none;
+    padding-top:5%;
     padding-right:5%;
     padding-bottom:auto;
     padding-left:5%;
