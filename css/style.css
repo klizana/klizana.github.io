@@ -39,10 +39,10 @@ img{
 .box-style{
     background-color:#ffffff;
     border:none;
-    padding-top:5%;
-    padding-right:5%;
-    padding-bottom:auto;
-    padding-left:5%;
+    padding-top:4%;
+    padding-right:4%;
+    padding-bottom:none;
+    padding-left:4%;
 }
 
 .blog-box-style{
@@ -76,13 +76,12 @@ img{
 
 .thumbnail{
     border:none;
-    padding-bottom:5%;
+    padding-bottom:none;
 }
 
 .content-box{
     background-color:#ffffff;
-    padding:2%;
-    margin-bottom:2%;
+    padding:1%;
 }
 
 a {
@@ -107,9 +106,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container-fluid{
-    padding-top:2%;
-    padding-left:2%;
-    padding-right:2%;
+    padding-top:1%;
 }
 
 .blog-header{
